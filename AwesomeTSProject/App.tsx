@@ -11,21 +11,13 @@
 import React from 'react';
 import {
   SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
   useColorScheme,
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -36,7 +28,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={backgroundStyle}>
-      <View backgroundColor="red" height={300}>
+      <View>
         <Text style={styles.greenText}>Hello</Text>
       </View>
     </SafeAreaView>
@@ -44,6 +36,10 @@ const App = () => {
 };
 
 const styles = StyleSheet.create({
+  redBox: {
+    backgroundColor: 'red',
+    height: 300,
+  },
   greenText: {
     color: 'green',
     textAlign: 'center',
