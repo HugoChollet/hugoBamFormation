@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#F3F3F3",
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "color": "green",
+          "fontSize": 100,
+          "textAlign": "center",
+          "textAlignVertical": "center",
+        }
+      }
+    >
+      Hello
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
